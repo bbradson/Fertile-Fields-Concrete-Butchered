@@ -1,0 +1,7 @@
+<Patch>
+	<!-- Apparantly there's some other mod adding rockmill tags back if you remove them from the Defs here. This patch removes them a 2nd time to fix that. -->
+	<Operation Class="PatchOperationRemove">
+		<success>Always</success>
+		<xpath>Defs/RecipeDef/recipeUsers/li[text()="RockMill"]</xpath>
+	</Operation>
+</Patch>

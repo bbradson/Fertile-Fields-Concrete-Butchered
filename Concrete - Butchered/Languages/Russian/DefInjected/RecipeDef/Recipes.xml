@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- mod ones -->
+  <MakeConcrete.label>Сделать 30 единиц бетона</MakeConcrete.label>
+  <MakeConcrete.description>Смешать щебень, песок и цемент с водой, чтобы получить бетон.</MakeConcrete.description>
+  <MakeConcrete.jobString>Производит бетон.</MakeConcrete.jobString>
+  <MakeConcrete5.label>Сделать 150 единиц бетона</MakeConcrete5.label>
+  <MakeConcrete5.description>Смешать щебень, песок и цемент с водой, чтобы получить бетон.</MakeConcrete5.description>
+  <MakeConcrete5.jobString>Производит бетон.</MakeConcrete5.jobString>
+  <MakeConcreteOneStep.label>Сделать 30 единиц бетона (в один шаг)</MakeConcreteOneStep.label>
+  <MakeConcreteOneStep.description>Раздробить и измельчить каменные обломки в щебень и песок, а затем соединить их с цементом и водой, чтобы получить бетон. (Это требует немного больше времени, чем если бы щебень и песок были сделаны отдельно, а затем соединены с цементом и водой, но зато вся работа выполняется всего лишь в один шаг.)</MakeConcreteOneStep.description>
+  <MakeConcreteOneStep.jobString>Производит бетон.</MakeConcreteOneStep.jobString>
+  <MakeConcreteBlocks.label>Сделать 75 шлакоблоков</MakeConcreteBlocks.label>
+  <MakeConcreteBlocks.description>Сделать шлакоблоки.</MakeConcreteBlocks.description>
+  <MakeConcreteBlocks.jobString>Делает шлакоблоки.</MakeConcreteBlocks.jobString>
+  <MakeConcreteRM.label>Сделать 30 единиц бетона</MakeConcreteRM.label>
+  <MakeConcreteRM.description>Смешать щебень, песок и цемент с водой, чтобы получить бетон.</MakeConcreteRM.description>
+  <MakeConcreteRM.jobString>Производит бетон.</MakeConcreteRM.jobString>
+  <MakeConcrete5RM.label>Сделать 150 единиц бетона</MakeConcrete5RM.label>
+  <MakeConcrete5RM.description>Смешать щебень, песок и цемент с водой, чтобы получить бетон.</MakeConcrete5RM.description>
+  <MakeConcrete5RM.jobString>Производит бетон.</MakeConcrete5RM.jobString>
+  <MakeConcreteOneStepRM.label>Сделать 30 единиц бетона (в один шаг)</MakeConcreteOneStepRM.label>
+  <MakeConcreteOneStepRM.description>Раздробить и измельчить каменные обломки в щебень и песок, а затем соединить их с цементом и водой, чтобы получить бетон. (Это требует немного больше времени, чем если бы щебень и песок были сделаны отдельно, а затем соединены с цементом и водой, но зато вся работа выполняется всего лишь в один шаг.)</MakeConcreteOneStepRM.description>
+  <MakeConcreteOneStepRM.jobString>Производит бетон.</MakeConcreteOneStepRM.jobString>
+  <MakeConcreteBlocksRM.label>Сделать 75 шлакоблоков</MakeConcreteBlocksRM.label>
+  <MakeConcreteBlocksRM.description>Сделать шлакоблоки.</MakeConcreteBlocksRM.description>
+  <MakeConcreteBlocksRM.jobString>Делает шлакоблоки.</MakeConcreteBlocksRM.jobString>
+  <MakeCement.label>Сделать 4 единицы цемента (из обломков)</MakeCement.label>
+  <MakeCement.description>Нагреть известняк, чтобы получить цемент.</MakeCement.description>
+  <MakeCement.jobString>Делает цемент.</MakeCement.jobString>
+  <MakeCementBlock.label>Сделать цемент (из блоков)</MakeCementBlock.label>
+  <MakeCementBlock.description>Нагреть блоки известняка, чтобы получить цемент.</MakeCementBlock.description>
+  <MakeCementBlock.jobString>Делает цемент.</MakeCementBlock.jobString>
+  <MakeCrushedRocksSlow.label>Сделать 2 единицы щебня</MakeCrushedRocksSlow.label>
+  <MakeCrushedRocksSlow.description>Раздробить каменные обломки в щебень.</MakeCrushedRocksSlow.description>
+  <MakeCrushedRocksSlow.jobString>Дробит каменные обломки.</MakeCrushedRocksSlow.jobString>
+  <MakeCrushedRocksSlowBlock.label>Сделать щебень (из блоков)</MakeCrushedRocksSlowBlock.label>
+  <MakeCrushedRocksSlowBlock.description>Раздробить каменные блоки в щебень.</MakeCrushedRocksSlowBlock.description>
+  <MakeCrushedRocksSlowBlock.jobString>Дробит каменные блоки.</MakeCrushedRocksSlowBlock.jobString>
+  <MakeSandSlow.label>Сделать песок</MakeSandSlow.label>
+  <MakeSandSlow.description>Раздробить щебень в песок.</MakeSandSlow.description>
+  <MakeSandSlow.jobString>Измельчает щебень.</MakeSandSlow.jobString>
+  <MakeCrushedRocks.label>Сделать 2 единицы щебня</MakeCrushedRocks.label>
+  <MakeCrushedRocks.description>Раздробить каменные обломки в щебень.</MakeCrushedRocks.description>
+  <MakeCrushedRocks.jobString>Дробит каменные обломки.</MakeCrushedRocks.jobString>
+  <MakeCrushedRocksBlock.label>Сделать щебень (из блоков)</MakeCrushedRocksBlock.label>
+  <MakeCrushedRocksBlock.description>Раздробить каменные блоки в щебень.</MakeCrushedRocksBlock.description>
+  <MakeCrushedRocksBlock.jobString>Дробит каменные блоки.</MakeCrushedRocksBlock.jobString>
+  <MakeSand.label>Сделать песок</MakeSand.label>
+  <MakeSand.description>Раздробить щебень в песок.</MakeSand.description>
+  <MakeSand.jobString>Измельчает щебень.</MakeSand.jobString>
+  <MakeCrushedRocks5.label>Сделать 10 единиц щебня</MakeCrushedRocks5.label>
+  <MakeCrushedRocks5.description>Раздробить каменные обломки в щебень.</MakeCrushedRocks5.description>
+  <MakeCrushedRocks5.jobString>Дробит каменные блоки.</MakeCrushedRocks5.jobString>
+  <MakeSand5.label>Сделать 5 единиц песка</MakeSand5.label>
+  <MakeSand5.description>Раздробить каменные обломки в щебень.</MakeSand5.description>
+  <MakeSand5.jobString>Измельчает щебень.</MakeSand5.jobString>
+  <!-- stone blocks -->
+  <Make_StoneBlocksAnyRM.label>Изготовить любые каменные блоки</Make_StoneBlocksAnyRM.label>
+  <Make_StoneBlocksAnyRM.description>Обработать каменные обломки для получения пригодных для строительства блоков.</Make_StoneBlocksAnyRM.description>
+  <Make_StoneBlocksAnyRM.jobString>Изготавливает каменные блоки.</Make_StoneBlocksAnyRM.jobString>
+  <Make_StoneBlocksSandstoneRM.label>Изготовить блоки песчаника</Make_StoneBlocksSandstoneRM.label>
+  <Make_StoneBlocksSandstoneRM.description>Распилить обломки песчаника на блоки, пригодные для строительства.</Make_StoneBlocksSandstoneRM.description>
+  <Make_StoneBlocksSandstoneRM.jobString>Изготавливает блоки песчаника.</Make_StoneBlocksSandstoneRM.jobString>
+  <Make_StoneBlocksGraniteRM.label>Изготовить блоки гранита</Make_StoneBlocksGraniteRM.label>
+  <Make_StoneBlocksGraniteRM.description>Распилить обломки гранита на блоки, пригодные для строительства.</Make_StoneBlocksGraniteRM.description>
+  <Make_StoneBlocksGraniteRM.jobString>Изготавливает блоки гранита.</Make_StoneBlocksGraniteRM.jobString>
+  <Make_StoneBlocksLimestoneRM.label>Изготовить блоки известняка</Make_StoneBlocksLimestoneRM.label>
+  <Make_StoneBlocksLimestoneRM.description>Распилить обломки известняка на блоки, пригодные для строительства.</Make_StoneBlocksLimestoneRM.description>
+  <Make_StoneBlocksLimestoneRM.jobString>Изготавливает блоки известняка.</Make_StoneBlocksLimestoneRM.jobString>
+  <Make_StoneBlocksSlateRM.label>Изготовить блоки сланца</Make_StoneBlocksSlateRM.label>
+  <Make_StoneBlocksSlateRM.description>Распилить обломки сланца на блоки, пригодные для строительства.</Make_StoneBlocksSlateRM.description>
+  <Make_StoneBlocksSlateRM.jobString>Изготавливает блоки сланца.</Make_StoneBlocksSlateRM.jobString>
+  <Make_StoneBlocksMarbleRM.label>Изготовить блоки мрамора</Make_StoneBlocksMarbleRM.label>
+  <Make_StoneBlocksMarbleRM.description>Распилить обломки мрамора на блоки, пригодные для строительства.</Make_StoneBlocksMarbleRM.description>
+  <Make_StoneBlocksMarbleRM.jobString>Изготавливает блоки мрамора.</Make_StoneBlocksMarbleRM.jobString>
+</LanguageData>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+  <identifier>RFConcrete</identifier>
+  <version>1.0.5.0</version>
+  <dependencies />
+  <incompatibleWith />
+  <loadBefore />
+  <loadAfter />
+  <manifestUri>https://raw.githubusercontent.com/emipa606/RFConcrete/master/About/Manifest.xml</manifestUri>
+  <downloadUri>https://github.com/emipa606/RFConcrete/releases</downloadUri>
+</Manifest>

@@ -1,0 +1,222 @@
+<Patch>
+  <Operation Class="PatchOperationSetName">
+    <success>Always</success>
+    <xpath>Defs/TerrainDef[defName = "Concrete" or defName = "PavedTile"]/costList/Steel</xpath>
+    <name>RFFConcrete</name>
+  </Operation>
+  <!-- <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/TerrainDef[defName = "Concrete"]/costList</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/TerrainDef[defName = "Concrete"]</xpath>
+        <value>
+          <costList>
+            <RFFConcrete>2</RFFConcrete>
+          </costList>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/TerrainDef[defName = "Concrete"]/statBases/WorkToBuild</xpath>
+        <value>
+          <WorkToBuild>200</WorkToBuild>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/TerrainDef[defName = "PavedTile"]/costList</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/TerrainDef[defName = "PavedTile"]</xpath>
+        <value>
+          <costList>
+            <RFFConcrete>3</RFFConcrete>
+          </costList>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/TerrainDef[defName = "PavedTile"]/statBases/WorkToBuild</xpath>
+        <value>
+          <WorkToBuild>500</WorkToBuild>
+        </value>
+      </li>
+    </operations>
+  </Operation> -->
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName = "Terraform_RockyDirt-Stone"]/costList</xpath>
+    <value>
+      <RFFConcrete>1</RFFConcrete>
+    </value>
+  </Operation>
+<!--  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName = "RBB_DeepBridge"]/costList</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName = "RBB_DeepBridge"]</xpath>
+        <value>
+          <costList>
+            <RFFConcrete>2</RFFConcrete>
+          </costList>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName = "RBB_DeepBridge_Stone"]/costList</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName = "RBB_DeepBridge_Stone"]</xpath>
+        <value>
+          <costList>
+            <RFFConcrete>2</RFFConcrete>
+          </costList>
+        </value>
+      </li>
+    </operations>
+  </Operation> -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/RecipeDef[defName = "MakeGlass"]/ingredients</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/RecipeDef[defName = "MakeGlass"]</xpath>
+        <value>
+          <ingredients>
+            <li>
+              <filter>
+                <thingDefs>
+                  <li>SandPile</li>
+                </thingDefs>
+              </filter>
+              <count>2</count>
+            </li>
+          </ingredients>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/RecipeDef[defName = "MakeGlass"]/fixedIngredientFilter</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/RecipeDef[defName = "MakeGlass"]</xpath>
+        <value>
+          <fixedIngredientFilter>
+            <thingDefs>
+              <li>SandPile</li>
+            </thingDefs>
+          </fixedIngredientFilter>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/RecipeDef[defName = "MakeCircularGlass"]/ingredients</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/RecipeDef[defName = "MakeCircularGlass"]</xpath>
+        <value>
+          <ingredients>
+            <li>
+              <filter>
+                <thingDefs>
+                  <li>SandPile</li>
+                </thingDefs>
+              </filter>
+              <count>2</count>
+            </li>
+          </ingredients>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/RecipeDef[defName = "MakeCircularGlass"]/fixedIngredientFilter</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/RecipeDef[defName = "MakeCircularGlass"]</xpath>
+        <value>
+          <fixedIngredientFilter>
+            <thingDefs>
+              <li>SandPile</li>
+            </thingDefs>
+          </fixedIngredientFilter>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/RecipeDef[defName = "SmeltGlass"]/ingredients</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/RecipeDef[defName = "SmeltGlass"]</xpath>
+        <value>
+          <ingredients>
+            <li>
+              <filter>
+                <thingDefs>
+                  <li>SandPile</li>
+                </thingDefs>
+              </filter>
+              <count>1</count>
+            </li>
+            <li>
+              <filter>
+                <thingDefs>
+                  <li>Steel</li>
+                </thingDefs>
+              </filter>
+              <count>2</count>
+            </li>
+          </ingredients>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/RecipeDef[defName = "SmeltGlass"]/fixedIngredientFilter</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/RecipeDef[defName = "SmeltGlass"]</xpath>
+        <value>
+          <fixedIngredientFilter>
+            <thingDefs>
+              <li>SandPile</li>
+              <li>Steel</li>
+            </thingDefs>
+          </fixedIngredientFilter>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

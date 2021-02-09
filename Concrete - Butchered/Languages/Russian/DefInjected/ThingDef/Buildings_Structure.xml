@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RockMill.label>электроизмельчитель</RockMill.label>
+  <RockMill.description>Работающий от электричества измельчитель, идеально подходящий для дробления, измельчения и смешивания камней, песка и грязи.</RockMill.description>
+  <RockMill_Blueprint.label>электроизмельчитель (проект)</RockMill_Blueprint.label>
+  <RockMill_Blueprint_Install.label>электроизмельчитель (проект)</RockMill_Blueprint_Install.label>
+  <RockMill_Frame.label>электроизмельчитель (постройка)</RockMill_Frame.label>
+  <RockMill_Frame.description>Работающий от электричества измельчитель, идеально подходящий для измельчения и смешивания камней, песка и грязи.</RockMill_Frame.description>
+  <RFFConcreteDoor.label>дверь из железобетона</RFFConcreteDoor.label>
+  <RFFConcreteDoor.description>Простая дверь, которую нужно открывать и закрывать вручную.</RFFConcreteDoor.description>
+  <RFFConcreteAutodoor.label>автодверь из железобетона</RFFConcreteAutodoor.label>
+  <RFFConcreteAutodoor.description>Автоматическая дверь позволяет входить и выходить без задержки.</RFFConcreteAutodoor.description>
+  <RFFPlasticreteDoor.label>дверь из пласталебетона</RFFPlasticreteDoor.label>
+  <RFFPlasticreteDoor.description>Простая дверь, которую нужно открывать и закрывать вручную.</RFFPlasticreteDoor.description>
+  <RFFPlasticreteAutodoor.label>автодверь из пласталебетона</RFFPlasticreteAutodoor.label>
+  <RFFPlasticreteAutodoor.description>Автоматическая дверь позволяет входить и выходить без задержки.</RFFPlasticreteAutodoor.description>
+  <RFFConcreteWall.label>бетонная стена</RFFConcreteWall.label>
+  <RFFConcreteWall.description>Стена из бетона. Более прочная, чем стены из каменных блоков.</RFFConcreteWall.description>
+  <RFFReinforcedConcreteWall.label>железобетонная стена</RFFReinforcedConcreteWall.label>
+  <RFFReinforcedConcreteWall.description>Стена из железобетона. Гораздо более прочная, чем стены из бетона и стены из каменных блоков. Хорошо подходит для использования в бункерах и других укреплённых сооружениях с высоким уровнем безопасности.</RFFReinforcedConcreteWall.description>
+  <RFFPlasticreteWall.label>пласталебетоннная стена</RFFPlasticreteWall.label>
+  <RFFPlasticreteWall.description>Массивная укрепленная стена, построенная из слоев бетона, стали и пластали. Является непревзойденной в оборонительных сооружениях.</RFFPlasticreteWall.description>
+  <Embrasure.label>амбразура</Embrasure.label>
+  <Embrasure.description>Непроходимая стена, оборудованная отверстиями, позволяющими вести стрельбу с укреплённой позиции. (Также действует как постоянно открытая вентиляция, выравнивая температуру по обе стороны стены.)</Embrasure.description>
+  <BrickEmbrasure.label>кирпичная амбразура</BrickEmbrasure.label>
+  <BrickEmbrasure.description>Непроходимая кирпичная стена, оборудованная отверстиями, позволяющими вести стрельбу с укреплённой позиции. (Также действует как постоянно открытая вентиляция, выравнивая температуру по обе стороны стены.)</BrickEmbrasure.description>
+  <RFFConcreteEmbrasure.label>железобетонная амбразура</RFFConcreteEmbrasure.label>
+  <RFFConcreteEmbrasure.description>Непроходимая стена из железобетона, оборудованная отверстиями, позволяющими вести стрельбу с укреплённой позиции. (Также действует как постоянно открытая вентиляция, выравнивая температуру по обе стороны стены.)</RFFConcreteEmbrasure.description>
+  <RFFPlasticreteEmbrasure.label>пласталебетоннная амбразура</RFFPlasticreteEmbrasure.label>
+  <RFFPlasticreteEmbrasure.description>Непроходимая стена из пласталебетона, оборудованная отверстиями, позволяющими вести стрельбу с укреплённой позиции. (Также действует как постоянно открытая вентиляция, выравнивая температуру по обе стороны стены.)</RFFPlasticreteEmbrasure.description>
+</LanguageData>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RFFCement.label>цемент</RFFCement.label>
+  <RFFCement.description>Связующее вещество, используемое в строительстве. При застывании после взаимодействия с жидкостями превращается в камневидное тело, тем самым связывая материалы.</RFFCement.description>
+  <RFFConcrete.label>бетон</RFFConcrete.label>
+  <RFFConcrete.description>Универсальный строительный материал. Может использоваться непосредственно, как для заливки бетонных полов, так и для изготовления шлакоблоков для стен.</RFFConcrete.description>
+  <RFFBlocksConcrete.label>шлакоблоки</RFFBlocksConcrete.label>
+  <RFFBlocksConcrete.description>Бетонные блоки, которые часто называют шлакоблоками. Их можно использовать для строительства всего, что можно построить из каменных блоков. Стены из шлакоблоков слабее гранитных, но на их постройку уходит меньше времени.</RFFBlocksConcrete.description>
+  <RFFBlocksConcrete.stuffProps.stuffAdjective>шлакоблоков</RFFBlocksConcrete.stuffProps.stuffAdjective>
+  <CrushedRocks.label>щебень</CrushedRocks.label>
+  <CrushedRocks.description>Каменные обломки, раздробленные на более маленькие куски.</CrushedRocks.description>
+  <SandPile.label>песок</SandPile.label>
+  <SandPile.description>Песок, возможно, выкопанный в пустыне или на пляже.</SandPile.description>
+</LanguageData>

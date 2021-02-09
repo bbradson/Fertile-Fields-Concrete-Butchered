@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="ResourceBase_Concrete" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>75</stackLimit>
+    <statBases>
+      <Beauty>-7</Beauty>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+    </comps>
+    <alwaysHaulable>true</alwaysHaulable>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <rotatable>false</rotatable>
+    <pathCost>15</pathCost>
+  </ThingDef>
+  <ThingDef ParentName="ResourceBase_Concrete">
+    <defName>RFFCement</defName>
+    <label>Cement</label>
+    <description>Cement is a binder, a substance used in construction that sets, hardens and adheres to other materials, binding them together.</description>
+    <graphicData>
+      <texPath>RFFCement</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>1</DeteriorationRate>
+      <MarketValue>2</MarketValue>
+      <Mass>0.5</Mass>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <tradeTags>
+      <li>TerraformingResources</li>
+    </tradeTags>
+  </ThingDef>
+  <ThingDef ParentName="ResourceBase_Concrete">
+    <defName>RFFConcrete</defName>
+    <label>Concrete</label>
+    <description>A versatile construction material. It can be used directly, as to pour concrete flooring, or made into "cinder" blocks for walls.</description>
+    <graphicData>
+      <texPath>RFFConcrete</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>1</DeteriorationRate>
+      <MarketValue>2.5</MarketValue>
+      <Mass>0.5</Mass>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <tradeTags>
+      <li>TerraformingResources</li>
+    </tradeTags>
+  </ThingDef>
+  <ThingDef ParentName="ResourceBase_Concrete">
+    <defName>RFFBlocksConcrete</defName>
+    <label>concrete "cinder" blocks</label>
+    <description>Blocks of concrete, of the sort often known as "cinder blocks." They can be used to build anything that can be constructed from stone blocks. Cinder block walls are weaker than granite walls, but can be built more quickly.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/StoneBlocks</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(192,192,192)</color>
+    </graphicData>
+    <soundInteract>Stone_Drop</soundInteract>
+    <soundDrop>Stone_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <MarketValue>0.9</MarketValue>
+      <SharpDamageMultiplier>0.6</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.0</BluntDamageMultiplier>
+      <Beauty>-12</Beauty>
+      <Mass>1</Mass>
+    </statBases>
+    <thingCategories>
+      <li>StoneBlocks</li>
+    </thingCategories>
+    <stuffProps>
+      <categories>
+        <li>Stony</li>
+      </categories>
+      <commonality>0.20</commonality>
+      <appearance>Bricks</appearance>
+      <color>(192,192,192)</color>
+      <soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <stuffAdjective>cinder block</stuffAdjective>
+      <statOffsets>
+        <WorkToBuild>140</WorkToBuild>
+      </statOffsets>
+      <statFactors>
+        <Beauty>0.5</Beauty>
+        <MarketValue>0.4</MarketValue>
+        <MaxHitPoints>1.6</MaxHitPoints>
+        <Flammability>0</Flammability>
+        <WorkToBuild>4.0</WorkToBuild>
+        <WorkToMake>1.0</WorkToMake>
+        <DoorOpenSpeed>0.45</DoorOpenSpeed>
+        <BedRestEffectiveness>0.9</BedRestEffectiveness>
+        <MeleeWeapon_CooldownMultiplier>1.35</MeleeWeapon_CooldownMultiplier>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <!-- <ThingDef ParentName="ResourceBase_Concrete">
+    <defName>CrushedRocks</defName>
+    <label>Crushed rocks</label>
+    <description>Stone chunks that have been broken up into smaller pieces.</description>
+    <graphicData>
+      <texPath>CrushedRocks</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <MarketValue>1.0</MarketValue>
+      <Mass>10.0</Mass>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <tradeTags>
+      <li>TerraformingResources</li>
+    </tradeTags>
+  </ThingDef>
+  <ThingDef ParentName="ResourceBase_Concrete">
+    <defName>SandPile</defName>
+    <label>Pile of sand</label>
+    <description>Sand, possibly dug up from a desert or a beach.</description>
+    <graphicData>
+      <texPath>SandPile</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <MarketValue>1.0</MarketValue>
+      <Mass>5.0</Mass>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <tradeTags>
+      <li>TerraformingResources</li>
+    </tradeTags>
+  </ThingDef> -->
+</Defs>
